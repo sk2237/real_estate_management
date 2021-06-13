@@ -1,0 +1,23 @@
+{
+  "launch": {
+    "configurations": [
+      {
+        "name": "Extension",
+        "type": "extensionHost",
+        "request": "launch",
+        "runtimeExecutable": "${execPath}",
+        "args": [
+          "--extensionDevelopmentPath=${workspaceFolder}"
+        ]
+      }
+    ],
+    "compounds": []
+  },
+  "files.associations": {
+    "\"*.html\"": "\"html\" "
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "workbench.editor.mouseBackForwardToNavigate": false,
+}
