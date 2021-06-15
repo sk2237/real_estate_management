@@ -86,8 +86,7 @@ DATABASES = {
         'NAME': 'real_states',
         'USER': 'postgres',
         'PASSWORD': 'suman123',
-        'HOST': 'sk-real-estate-management.herokuapp.com'
-        'PORT': '5432'
+        'HOST': 'localhost'
     }
 }
 
